@@ -1,0 +1,415 @@
+@media only screen and (max-width:414px){
+    #container{
+        width: 100%;
+        overflow: hidden;
+    }
+    /*Nav*/
+    #navigation{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 50px;
+        padding: 5px;
+        position: relative;
+        z-index: 1;
+    }
+    #hamburgerMenu{
+            width: 40px;
+            height: 35px;
+            margin-top: 4px;
+            cursor: pointer;
+     }
+     .line{
+         width: 100%;
+         height: 4px;
+         background-color: black;
+         margin-top: 8px;
+     }
+     .logoLink{
+         cursor: pointer;
+         text-decoration: none;
+         width: 180px;
+         height: 20px;
+         font-size: 22px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         color: black;
+         position: absolute;
+         margin-left: 55px;
+         margin-top: 12px;
+     }
+     #navRight{
+         margin-left: 195px;
+         margin-top: 5px;
+     }
+     /*Nav Icon*/
+     #search{
+        width: 35px;
+        cursor: pointer;
+    }
+    #cart{
+        width: 35px;
+        cursor: pointer;
+    }
+    #favourite{
+        width: 35px;
+        cursor: pointer;
+    }
+    #account{
+        width: 40px;
+        cursor: pointer;
+    }
+    /*searchbar*/
+    #searchArea{
+        display: none;
+    }
+    #searchContainer{
+        border: solid black 2px;
+        width: 90%;
+        height:30px;
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        justify-content: center;
+        overflow: hidden;
+    }
+    #searchBar{
+        width: 85%;
+        margin-left: -10px;
+        outline: none;
+        border: none;
+        font-size: 16px;
+    }
+    .containerSearchIconBtn{
+        width: 30px;
+        border-left: solid black 2px;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+    #searchIconBtn{
+        width: 30px;
+        margin-left: 4px;
+    }
+    .containerCloseIconBtn{
+        margin-top: 5px;
+        margin-left: 8px;
+        cursor: pointer;
+        display: none;
+    }
+    #closeIconBtn{
+        width: 30px;
+    }
+    /*middlecontent*/
+#bedRoom-InspirationContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 800px;
+}
+.TitleBederoom{
+    padding-top: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.productImgBedroom{
+    width: 380px; 
+}
+.bedroomFrameInfoIndex{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: bold;
+    color: black;
+    width: 350px;
+    justify-content: center;
+    margin-left: 10px;
+}
+.ShopNowLink{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    border: solid 2px black;
+    border-radius: 2px;
+    width: 130px;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#coffeeTable-InspirationContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+    overflow: hidden;
+  
+}
+#coffeeTableBackground{
+    width: 340px;
+    height: 680px;
+    background-color: #9F9F9F;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
+
+    padding: 10px;
+}
+.TitleCoffeeTablele{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.productImgCoffeeTable{
+    width: 320px;
+    margin-left: 30px;
+}
+.coffeeTableFrameInfoIndex{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    width: 305px;
+    margin-left: 30px;
+}
+#TableShopNowLink{
+    width: 200px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: solid white 2px;
+    padding: 5px;
+    margin-left: 130px;
+    margin-top: -20px;
+}
+#chairs-InspirationContainer{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 540px;
+    background-color: #E5E5E5;
+}
+#productCardBackground{
+    position: absolute;
+    margin-top: 50px;
+    width: 350px;
+    overflow: hidden;
+    background-color:   #f2f2f2;
+    border-radius: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productImgChair{
+    width: 250px;
+}
+.titleChairs{
+    margin-top: 285px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chairInfo{
+    position: absolute;
+    width: 320px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 340px;
+}
+.chairShopNowLink{
+    width: 100px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: solid black 2px;
+    margin-top: 480px;
+    position: absolute;
+    z-index: 2;
+}
+/*Best Seller*/
+.Container-BestSeller{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.titleBestSeller{
+   position: absolute;
+   margin-top: 10px;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.slidercontainer{
+  position: relative;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  transition: all 0.5s;
+  margin-top: 50px;
+  padding: 4px;
+}
+.item{
+  display: inline-block;
+  width: 180px;
+  height: 200px;
+  margin-left: 5px;
+  overflow: hidden;
+}
+.item .active{
+ cursor: grabbing;
+ cursor: -webkit-grabbing;
+ background-color: red;
+}
+.productCardImgContainer{
+  width: 100%;
+  height: 160px;
+  background-color: white;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgCard{
+  width: 140px;
+}
+.productCardInfo{
+  overflow: hidden;
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -55px;
+}
+.productModel{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+.productCategory{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: -10px;
+}
+.productPrice{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin-top: -10px;
+}
+/*Shop By Room*/
+#container-ShopByRoom{
+    width: 100%;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleShopByRoom{
+    margin-top: 20px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.shopbyRoom{
+    height: 190px;
+    width: 80%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.imgShopByRoom{
+    height: 100%;
+    width: 100%;
+    background-image: cover;
+}
+.roomTitle{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 125px;
+    border-bottom: solid 4px white;
+    margin-left: 20px;
+    margin-top: 140px;
+    position: absolute;
+    cursor: pointer;
+}
+.lineSepertor{
+    margin-top: 10px;
+    width: 80%;
+    height: 5px;
+    background-color: white;
+}
+/*footer*/
+#footer{
+    width:100%;
+    background-color: #D6D5D5;
+    display: flex;
+    flex-direction: column;
+}
+.containerFooterOption{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footerOption{
+    text-decoration: none;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    border-left: black 2px solid;
+    padding-left: 4px;
+    cursor: pointer;
+
+}
+/*soicals icon*/
+#socialsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -10px;
+}
+.socialIcon{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    cursor: pointer;
+}
+.rightsContainer{
+    width: 100%;
+    border-top:2px solid white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.copyrightIcon{
+    width: 15px;
+    height: 15px;
+    margin-left: -20px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.allRights{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.copy{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6px;
+}
+}

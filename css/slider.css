@@ -1,0 +1,188 @@
+@media only screen and (max-width:414px){
+/*slider*/
+#slider{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-container {
+    width: 100%;
+    height: 300px;
+}
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.slideImg{
+    height: 270px;
+    width: 398px;
+    background-image: cover;
+    background-image: unset;
+}
+/*Slide One*/
+.sliderInfoContainerOne{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: -260px;
+    margin-left: 120px;
+    width: 60%;
+}
+.slideOneText{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+}
+.ShopNowLinkOne{
+    color: white;
+    font-size: 12px;
+    border: white solid 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 2px;
+    margin-left: -80px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+/*slider two*/
+   .sliderInfoContainerTwo{
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    border: white solid 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 135px;
+    height: 80px;
+    padding: 6px;
+    margin-top: -130px;
+    margin-left: 60px;
+}
+.slideTwoText{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.ShopNowLinkTwo{
+    position: absolute;
+    margin-top: -6px;
+    color: white;
+    font-size: 12px;
+    border-bottom: white solid 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*slider three*/
+.sliderInfoContainerThree{
+    width: 200px;
+    height: 65px;
+    opacity: 0.8;
+    background-color: black;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 180px;
+    padding: 8px;
+    padding-left: 10px;
+}
+.slideThreeTitle{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4px;
+    font-size: 13px;
+}
+.slideThreeText{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-top: -4px;
+     font-size: 12px;
+}
+.ShopNowLinkThree{
+     color: white;
+     font-size: 12px;
+     border-bottom: white solid 4px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+     margin-top: -6px;
+     position: absolute;
+     cursor: pointer;
+}
+/*slider 4*/
+#sliderInfoContainerFour{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    float: right;
+    background-color: #262626;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: -280px;
+    margin-left: 0px;
+}
+.info{
+    margin-top: -180px;
+    margin-left: -120px;
+}
+.TitleInfo{
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+.deliveryInfo{
+    width: 260px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    opacity: 1;
+    padding: 25px;
+    margin-top: -50px;
+    margin-left: 5px;
+}
+.ShopNowLinkFour{
+   color: white;
+   font-size: 12px;
+   border: white solid 2px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   width:68px;
+   padding: 2px;
+   margin-left: 310px;
+   margin-top: -70px;
+   position: absolute;
+}
+     /*controls*/
+     .swiper-button-prev{
+        color: white;
+        font-weight:initial;
+        height: 10px;
+    }
+    .swiper-button-next{
+        color: white;
+        font-weight:initial;
+        height: 10px;
+    }
+    .swiper-pagination-bullet{
+        width: 20px;
+        height: 6px;
+        border-radius: 2px;
+      }
+    .swiper-pagination-bullet-active {
+        background-color: black;
+        width: 20px;
+        height: 6px;
+        border-radius: 2px;
+      }
+}

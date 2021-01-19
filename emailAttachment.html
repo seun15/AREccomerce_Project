@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    
+<script>
+Email.send({
+    SecureToken : "9923edbb-23f8-448a-bb4f-a8b3da6fe91e",
+    To : 'safariogun5@gmail.com',
+    From : "seunafariogun5@gmail.com",
+    Subject : "Test tstsa This is the subject",
+    Body : "And this is the body",
+    Attachments : [
+	{
+		name : "Armchair.usdz",
+		path : "https://seun15.github.io/FinalEccomerce_Project/assets/Armchair.usdz"
+	}]
+}).then(
+  message => alert(message)
+);
+</script>
+</body>
+</html>

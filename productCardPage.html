@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Living Room Products:S&A Home Decor</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/productCardPage.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <style>
+            /*controls*/
+     .swiper-button-prev{
+        color: white;
+        font-weight:initial;
+        height: 10px;
+    }
+    .swiper-button-next{
+        color: white;
+        font-weight:initial;
+        height: 10px;
+    }
+    .swiper-pagination-bullet{
+        width: 20px;
+        height: 6px;
+        border-radius: 2px;
+      }
+    .swiper-pagination-bullet-active {
+        background-color: black;
+        width: 20px;
+        height: 6px;
+        border-radius: 2px;
+      }
+    </style>
+<section id="menuContainer">
+    <div id="mainMenu">
+        <span class="closeMenu">x</span> 
+        <span class="mainOption" id="BedroomOption" style="width: 210px;">Bedroom</span>
+        <span class="mainOption" id="KitchenOption"style="width: 180px;">Kitchen</span>
+        <span class="mainOption" id="LivingRoomOption"style="width: 270px;">Living Room</span>
+        <span class="mainOption" id="DinningRoomOption" style="width: 305px;">Dining Room</span>
+        <span class="mainOption" id="BathroomOption" style="width: 235px;">Bathroom</span>
+    </div>
+   <!--option1-->
+   <div class="containerBedroomOption">
+        <img src="images/LessThanIcon.png"  class="arrowBack arrowLeft">
+         <h1 class="TitleMainOption">Bedroom</h1>
+         <div class="containrOptions">
+            <a href="#" class="subOptions">All </a>
+            <a href="#" class="subOptions">Bed Frames</a>
+            <a href="#" class="subOptions">Bed Matress</a>
+            <a href="#" class="subOptions">Bed Toppers</a>
+            <a href="#" class="subOptions">Bed Storage</a>
+            <a href="#" class="subOptions">Bedside Table</a>
+            <a href="#" class="subOptions">Wardrobes</a>
+            <a href="#" class="subOptions">Chest of draws</a>
+            <a href="#" class="subOptions">Mirrors</a>
+            <a href="#" class="subOptions">Accessories</a>
+         </div>
+   </div>
+   <!--option2-->
+   <div class="containerKitchenOption">
+        <img src="images/LessThanIcon.png"  class="arrowBackTwo arrowLeft">
+        <h1 class="TitleMainOption">Kitchen</h1>
+        <div class="containrOptions">
+           <a href="#" class="subOptions">All</a>
+           <a href="#" class="subOptions">Cabinets & fronts</a>
+           <a href="#" class="subOptions">interior fittings</a>
+           <a href="#" class="subOptions">Kitchen Unit</a>
+           <a href="#" class="subOptions">Kitchen appliance</a>
+           <a href="#" class="subOptions">Taps and sink</a>
+           <a href="#" class="subOptions">Kitchen splashback</a>
+           <a href="#" class="subOptions">Lighting</a>
+           <a href="#" class="subOptions">Accessories</a>
+        </div>
+   </div>
+   <!--option3-->
+   <div class="containerLivingRoomOption">
+        <img src="images/LessThanIcon.png"  class="arrowBackThree arrowLeft">
+        <h1 class="TitleMainOption" style="width: 270px;">Living Room</h1>
+        <div class="containrOptions">
+             <a href="livingRoomProducts.html" class="subOptions">All</a>
+             <a href="#" class="subOptions">Sofa</a>
+             <a href="#" class="subOptions">Sofa Bed</a>
+             <a href="#" class="subOptions">Armchair</a>
+             <a href="#" class="subOptions">Bookcase & Shelves units </a>
+             <a href="#" class="subOptions"> Cabinets & cupboards</a>
+             <a href="#" class="subOptions">Tv Stand</a>
+             <a href="#" class="subOptions">Coffee tables & side tables</a>
+             <a href="#" class="subOptions">wall shelves</a>
+             <a href="#" class="subOptions">Rugs</a>
+             <a href="#" class="subOptions">Lamps</a>
+             <a href="#" class="subOptions">Accessories</a>
+        </div>
+   </div>
+   <!--option4-->
+   <div class="containerDinnigRoomOption">
+        <img src="images/LessThanIcon.png"  class="arrowBackFour arrowLeft">
+        <h1 class="TitleMainOption" style="width: 320px;margin-left: 80px;">dining Room</h1>
+        <div class="containrOptions">
+           <a href="#" class="subOptions">All</a>
+           <a href="#" class="subOptions">Dining Chairs</a>
+           <a href="#" class="subOptions">Dining Tables</a>
+           <a href="#" class="subOptions">Dining sets</a>
+           <a href="#" class="subOptions">Lighting </a>
+           <a href="#" class="subOptions"> Accessories</a>
+        </div>
+   </div>
+   <!--option5-->
+   <div class="containerBathroomOption">
+        <img src="images/LessThanIcon.png"  class="arrowBackFive arrowLeft">
+        <h1 class="TitleMainOption">Bathroom</h1>
+        <div class="containrOptions">
+            <a href="#" class="subOptions">All</a>
+            <a href="#" class="subOptions">Bathroom Cabinets</a>
+            <a href="#" class="subOptions">Bathroom sink</a>
+            <a href="#" class="subOptions"> Bathroom furniture sets</a>
+            <a href="#" class="subOptions"> bathroom textiles</a>
+            <a href="#" class="subOptions"> bathroom showers & taps</a>
+            <a href="#" class="subOptions">mirrors</a>
+            <a href="#" class="subOptions">Accessories </a>
+        </div>
+   </div>
+</section>
+
+</section>
+<div id="container">
+    <section id="navigation">
+        <div id="hamburgerMenu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>  
+         </div>
+         <a href="index.html" class="logoLink">S&A Home Decor</a>
+         <div id="navRight">
+            <img id="search" src="images/search.png">
+            <img id="cart" src="images/shoppingCart.png">
+            <img id="favourite" src="images/favourite.png">
+            <img id="account" src="images/persona.png">
+         </div>
+    </section>
+    <section id="searchArea">
+        <div id="searchContainer">
+            <input type="searchBar" name="search" id="searchBar" placeholder="Search....">
+            <span class="containerSearchIconBtn"><img src="images/search.png" id="searchIconBtn"></span>
+        </div>
+             <span class="containerCloseIconBtn"><img src="images/close.png" id="closeIconBtn"></span>
+    </section>
+    <br>
+    <section class="Content">
+    <span><img src="images/LessThanIcon.png" style="width:35px;"><a href="livingRoomProducts.html" class="ContinueshoppingLink">Continue shopping</a></span>
+    
+    <section id="productSlider">
+      <!-- Swiper -->
+      <div class="swiper-container">
+      <div class="swiper-wrapper">
+      <div class="swiper-slide">
+          <img src="images/livingroomProductPage/sofa/mainPhoto.jpg" class="productCardIMG">
+      </div>
+      <div class="swiper-slide">
+          <img src="images/livingroomProductPage/sofa/photo2.jpg" class="productCardIMG">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/livingroomProductPage/sofa/photo3.jpg" class="productCardIMG">
+      </div>
+      <div class="swiper-slide"> 
+        <img src="images/livingroomProductPage/sofa/photo4.jpg" class="productCardIMG">
+      </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      </div>
+      <img src="images/favourite.png" class="favouriteIcon">
+      
+    </section>
+    
+    <section id="productDescription">
+     <h1 class="productTitle">Savio</h1>
+     <div class="rating">
+      <img src="images/starIcon.png" class="starIcon">
+      <img src="images/starIcon.png" class="starIcon">
+      <img src="images/starIcon.png" class="starIcon">
+      <img src="images/starIcon.png" class="starIcon">
+      <p class="review">Customer   Reviews</p>
+     </div>
+     <p class="productInfo">Savio 3 Seater Sofa, Chalk Tan Leather</p>
+     <p class="price">£1,225.99</p>
+     <div class="container_colour">
+        <div class="circleColour">
+            <img src="images/livingroomProductPage/sofa/colour.png">
+        </div>
+        <div class="circleColour">
+            <img src="images/livingroomProductPage/sofa/2colour.png">
+        </div>
+     </div>
+     <br>
+    </section>
+    <br>
+    <div class="contaiberProductDiscription">
+        <img src="images/LessThanIcon.png" class="arrow">
+        <h1 class="titleProductDescription">Product discription</h1>
+        <h1 class="TwotitleProductDescription">Product discription</h1>
+        <div class="hiddenInfo">
+           <p class="productInfo">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+            make a type specimen book. 
+           </p>
+        </div>
+     </div>
+<br>
+    <div class="containerBtn">
+        <br>
+        <button class="basketBtn">Add to basket</button>
+        <br>
+    </div>
+    <br>
+    <!--ViewArContent-->
+    <div class="ArExperience">
+        <span class="closeIconAR">x</span> 
+       <center><h2 class="AR_title">Click on button to recieve the AR-Experience in your Email</h2> </center>
+            <p class="AR_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+                make a type specimen book. </p>
+                <center><div class="emailBtn">Send Email</div></center>
+    </div>
+ <!--Best Seller-->
+ <div class="Container-BestSeller">
+    <h1 class="titleBestSeller">Best Seller</h1>
+    <div class="slidercontainer">
+        <!--Item 1-->
+        <div class="item">
+            <div class="containerProductCard">
+                 <div class="productCardImgContainer">
+                    <img src="images/topseller/drawer/mainPhoto.jpg" class="imgCard">
+                 </div>
+                 <div class="productCardInfo">
+                    <h3 class="productModel">LEIF</h3>
+                    <h3 class="productCategory">6 DRAWER WIDE CHEST</h3>
+                    <h3 class="productPrice">£413</h3>
+                 </div>
+            </div>
+        </div>
+        <!--Item 2-->
+        <div class="item">
+            <div class="containerProductCard">
+                 <div class="productCardImgContainer">
+                    <img src="images/topseller/bedframe/mainPhoto.jpg" class="imgCard">
+                 </div>
+                 <div class="productCardInfo">
+                    <h3 class="productModel">SOJOURN</h3>
+                    <h3 class="productCategory">STORAGE BEDFRAME</h3>
+                    <h3 class="productPrice">£763</h3>
+                 </div>
+            </div>
+        </div>
+        <!--Item 3-->
+        <div class="item">
+            <div class="containerProductCard">
+                 <div class="productCardImgContainer">
+                    <img src="images/topseller/lamp/mainPhoto.jpg" class="imgCard">
+                 </div>
+                 <div class="productCardInfo">
+                    <h3 class="productModel">BLACK ARC</h3>
+                    <h3 class="productCategory">FLOOR LAMP</h3>
+                    <h3 class="productPrice">£170</h3>
+                 </div>
+            </div>
+        </div>
+        <!--Item 4-->
+        <div class="item">
+            <div class="containerProductCard">
+                 <div class="productCardImgContainer">
+                    <img src="images/topseller/sofa/mainPhoto.jpg" class="imgCard">
+                 </div>
+                 <div class="productCardInfo">
+                    <h3 class="productModel">Scott</h3>
+                    <h3 class="productCategory">4 Seater Corner Sofa</h3>
+                    <h3 class="productPrice">£1,460</h3>
+                 </div>
+            </div>
+        </div>
+        <!--Item 5-->
+        <div class="item">
+            <div class="containerProductCard">
+                 <div class="productCardImgContainer">
+                    <img src="images/topseller/Dining Table/mainPhoto.jpg" class="imgCard">
+                 </div>
+                 <div class="productCardInfo">
+                    <h3 class="productModel">Boone</h3>
+                    <h3 class="productCategory">6 Seat Dining Table</h3>
+                    <h3 class="productPrice">£540</h3>
+                 </div>
+            </div>
+        </div>
+        <!--Item 6-->
+        <div class="item">
+            <div class="containerProductCard">
+                 <div class="productCardImgContainer">
+                    <img src="images/topseller/greenchair/mainPhoto.jpg" class="imgCard">
+                 </div>
+                 <div class="productCardInfo">
+                    <h3 class="productModel">CELINE</h3>
+                    <h3 class="productCategory">Green velvet armchair</h3>
+                    <h3 class="productPrice">£210</h3>
+                 </div>
+            </div>
+        </div>
+    </div> 
+</div>
+    </section>
+    <br>
+<section id="footerContainer">
+    <div id="footer">
+        <div class="containerFooterOption">
+             <a href="#" class="footerOption" style="border-left:none;">About Us</a>
+             <a href="#" class="footerOption">Customer Service</a>
+             <a href="#" class="footerOption">Shop By Room</a>
+        </div>
+        <br>
+        <div id="socialsContainer">
+            <img src="images/facebook.png" style="width: 40px;height:40px;margin-top: -3px;" class="socialIcon">
+            <img src="images/instagram.png" class="socialIcon">
+            <img src="images/twitter.png" class="socialIcon">
+            <img src="images/pinterest.png" class="socialIcon">
+        </div>
+        <br>
+        <div class="rightsContainer">
+            <img class="copyrightIcon"src="images/copyright.png">
+            <h5 class="copy">2020 S & A Home Decor Inc.<span class="allRights"> All Rights Reserved</span></h5>
+        </div>
+    </div>
+</section>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/search.js"></script>
+<script src="js/filter.js"></script>
+<script>
+function ProductInfoShow(){
+   $('.titleProductDescription').click(function(){
+       $('.titleProductDescription').hide();
+       $('.TwotitleProductDescription').show();
+       $('.arrow').css({'transform':'rotate(90deg)'});
+       $('.hiddenInfo').slideDown();
+   });
+}
+ProductInfoShow();
+
+function ProductInfoHide(){
+   $('.TwotitleProductDescription').click(function(){
+       $('.titleProductDescription').show();
+       $('.TwotitleProductDescription').hide();
+       $('.arrow').css({'transform':'rotate(-90deg)'});
+       $('.hiddenInfo').slideUp();
+   });
+}
+ProductInfoHide();
+var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        dynamicBullets: true,
+      },
+ 
+    });
+</script>
+<script>
+function showMenu(){
+    $('#hamburgerMenu').click(function(){
+       $("#menuContainer").animate({
+           height:'700px'
+       });
+       $("#mainMenu").css({height:'700px'});
+       $("#container").hide();
+    });
+ }
+ showMenu();
+
+ function hideMenu(){
+     $('.closeMenu').click(function(){
+       $("#menuContainer").css({'height':'0px'});
+       $("#container").show();
+     });
+ }
+ hideMenu();
+
+ function chosenOption(){
+     //option1
+     $('#BedroomOption').click(function(){
+       $('.containerBedroomOption').animate({
+           marginLeft:'0px'
+       });
+       $("#mainMenu").css({height:'0px'});
+     });
+     //option2
+     $('#KitchenOption').click(function(){
+       $('.containerKitchenOption').animate({
+           marginLeft:'0px'
+       });
+       $("#mainMenu").css({height:'0px'});
+     });
+     //option3
+     $('#LivingRoomOption').click(function(){
+       $('.containerLivingRoomOption').animate({
+           marginLeft:'0px'
+       });
+       $("#mainMenu").css({height:'0px'});
+     });
+     //option4
+     $('#DinningRoomOption').click(function(){
+       $('.containerDinnigRoomOption').animate({
+           marginLeft:'0px'
+       });
+       $("#mainMenu").css({height:'0px'});
+     });
+     //option5
+     $('#BathroomOption').click(function(){
+       $('.containerBathroomOption').animate({
+           marginLeft:'0px'
+       });
+       $("#mainMenu").css({height:'0px'});
+     });
+ }
+ chosenOption();
+
+ function goBack(){
+     //option1
+     $('.arrowBack').click(function(){
+         $('.containerBedroomOption').animate({
+           marginLeft:'-500px'
+       });
+         $("#mainMenu").css({height:'700px'});
+     });
+     //option2
+     $('.arrowBackTwo').click(function(){
+         $('.containerKitchenOption').animate({
+           marginLeft:'-500px'
+       });
+         $("#mainMenu").css({height:'700px'});
+     });
+     //option3
+     $('.arrowBackThree').click(function(){
+         $('.containerLivingRoomOption').animate({
+           marginLeft:'-500px'
+       });
+         $("#mainMenu").css({height:'700px'});
+     });
+     //option4
+     $('.arrowBackFour').click(function(){
+         $('.containerDinnigRoomOption').animate({
+           marginLeft:'-500px'
+       });
+         $("#mainMenu").css({height:'700px'});
+     });
+     //option5
+     $('.arrowBackFive').click(function(){
+         $('.containerBathroomOption').animate({
+           marginLeft:'-500px'
+       });
+         $("#mainMenu").css({height:'700px'});
+     });
+ }
+ goBack()
+</script>
+<script src="js/ARExperience.js"></script>
+</body>
+</html>
